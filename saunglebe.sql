@@ -120,8 +120,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Membuang data untuk tabel saunglebe.user: ~2 rows (lebih kurang)
 DELETE FROM `user`;
 INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `jabatan`) VALUES
-	(2, 'Admin', 'admin@saunglebe.com', '$2y$10$6Kntvy9r/eXMsmCr/CPiMOlkXTZStynbB9QFFN/y55QWnBPMTVho2', 'admin'),
-	(5, 'Asep Sukma', 'thalalatha13@gmail.com', '$2y$10$Hzvgp9l/8IH1tVUtz.feq.QDP4lYLRGbwXiO063.Le1de0miNNCTq', 'kasir');
+	(1, 'Admin', 'admin@saunglebe.com', '$2y$10$6Kntvy9r/eXMsmCr/CPiMOlkXTZStynbB9QFFN/y55QWnBPMTVho2', 'admin'),
+	(2, 'Kasir', 'kasir@saunglebe.com', '$2y$10$6Kntvy9r/eXMsmCr/CPiMOlkXTZStynbB9QFFN/y55QWnBPMTVho2', 'kasir');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
